@@ -11,7 +11,7 @@
     list-style: none;
     gap: 32px;
     align-items: center;
-    margin-left: 525px;
+    margin-left: 450px;
     font-size: 20px;
     font-weight: 500;   
 }
@@ -32,8 +32,8 @@
     color: rgb(93, 88, 239);
 }
 .btn{
-    margin-right: 100px;
-    margin-left: 550px;
+    margin-right: 200px;
+    margin-left: 500px;
 }
 .contact{
     padding: 10px 50px;
@@ -44,5 +44,42 @@
 }
 .nav-logo{
      align-items: center;
-     margin-left: 100px;
+     margin-left: 200px;
+}
+
+/* banner part */
+.banner-part{
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.banner-title{
+    font-size: 56px;
+font-weight: 700;
+}
+.Empowering{
+    color: orange;
+}
+.vision{
+    color: rgb(1, 172, 253);
+}
+.banner{
+    max-width: 600px;
+    margin-left: 100px;
+}
+.banner-pic{
+    margin-right: 40px;
+}
+.banner-description{
+    color: rgb(17, 17, 17);
+font-size: 20px;
+font-weight: 400;
+}
+.btn-enroll{
+    padding: 10px 50px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 12px;
 }
