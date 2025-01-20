@@ -1,0 +1,48 @@
+.display-flex{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+}
+.nav-link{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    align-items: center;
+    margin-left: 525px;
+    font-size: 20px;
+    font-weight: 500;   
+}
+.school{
+    font-size: 32px;
+    font-weight: 700;
+}
+.home{
+    color: orange;
+}
+.about{
+    color: skyblue;
+}
+.facilities{
+    color: rgb(5, 212, 223);
+}
+.admission{
+    color: rgb(93, 88, 239);
+}
+.btn{
+    margin-right: 100px;
+    margin-left: 550px;
+}
+.contact{
+    padding: 10px 50px;
+    color: white;
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    border: 1px solid rgb(254, 163, 1);
+}
+.nav-logo{
+     align-items: center;
+     margin-left: 100px;
+}
