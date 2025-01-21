@@ -254,3 +254,23 @@ font-weight: 400;
     font-weight: 700;
     margin-left: 20px;
 }
+.btn-view{
+    text-align: center;
+    padding: 20px 40px;
+}
+.btn-all{
+    padding: 20px 60px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);  
+    border: rgb(17, 17, 17);
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.last{
+    background: rgb(1, 172, 253);
+    margin-top: -20px;
+}
+.last-part{
+    justify-content: space-evenly;
+}
