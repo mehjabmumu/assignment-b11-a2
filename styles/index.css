@@ -83,3 +83,72 @@ font-weight: 400;
     border: 1px solid black;
     border-radius: 12px;
 }
+/* curriculum part */
+.curriculum-part{
+    border: 1px solid white;
+    background-image: url(/assets/bg.png);
+
+}
+.standard{
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+}
+.curriculum{
+    margin-left: 190px;
+    margin-right: 120px;
+    margin-top: 80px;
+    gap: 60px;
+}
+
+.kinder{
+    border: 1px solid rgb(222, 245, 255);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    padding: 20px 50px;
+    text-align: center;
+    border-radius: 20px;
+    max-width: 400px;
+    height: 450px;
+
+}
+.middle{
+    border: 1px solid rgb(255, 244, 220);
+    padding: 20px 50px;
+    text-align: center;
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    border-radius: 20px;
+    max-width: 400px;
+    height: 450px;
+}
+
+.elementary{
+    border: 1px solid rgb(242, 232, 255);
+    padding: 20px 50px;
+    text-align: center;
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    border-radius: 20px;
+    max-width: 400px;
+    height: 450px;
+}
+.title{
+    font-size: 24px;
+    font-weight: 700;
+}
+.description{
+    color: rgb(128, 128, 128);
+    font-size: 15.09px;
+    font-weight: 500;
+}
+.btn-one{
+    color: rgb(100, 200, 255)
+}
+.btn-two{
+    color: rgb(240, 170, 0)
+}
+.btn-three{
+    color: rgb(135, 0, 255);
+}
+.arrow{
+    text-align: center;
+}
