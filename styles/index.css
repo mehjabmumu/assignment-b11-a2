@@ -15,6 +15,11 @@
     font-size: 20px;
     font-weight: 500;   
 }
+
+.nav-item{
+    text-decoration: none;
+}
+
 .school{
     font-size: 32px;
     font-weight: 700;
@@ -28,7 +33,7 @@
 .facilities{
     color: rgb(5, 212, 223);
 }
-.admission{
+.nav-add{
     color: rgb(93, 88, 239);
 }
 .btn{
@@ -46,6 +51,24 @@
      align-items: center;
      margin-left: 200px;
 }
+.adventure{
+    white-space: nowrap;
+    overflow: hidden;
+    color: rgb(107, 197, 233);
+    font-size: 30px;
+    display: flex;
+    gap: 300px;
+    animation: 15s slide infinite linear;
+
+}
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translate(-100%);
+    }
+}
 
 /* banner part */
 .banner-part{
@@ -56,7 +79,7 @@
 }
 .banner-title{
     font-size: 56px;
-font-weight: 700;
+    font-weight: 700;
 }
 .Empowering{
     color: orange;
@@ -73,8 +96,8 @@ font-weight: 700;
 }
 .banner-description{
     color: rgb(17, 17, 17);
-font-size: 20px;
-font-weight: 400;
+    font-size: 20px;
+    font-weight: 400;
 }
 .btn-enroll{
     padding: 10px 50px;
@@ -168,8 +191,7 @@ font-weight: 400;
 }
 .card{
     background-image: url(/assets/bg.png);
-    background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
-    
+    background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%); 
 }
 .both{
     gap: 40px;
@@ -273,4 +295,165 @@ font-weight: 400;
 }
 .last-part{
     justify-content: space-evenly;
+    padding: 60px 20px;
+}
+.last-logo{
+    color: white;
+    width: 300px;
+    
+}
+.edu-title{
+    font-size: 42px;
+    font-weight: 700;
+}
+.edu-description{
+    font-size: 20px;
+    font-weight: 400;
+}
+.list{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+.list-item{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.keep{
+    font-size: 26px;
+font-weight: 700;
+color: white;
+}
+nav a:hover{
+    background-color: #f0f0f0;
+}
+
+/* small device */
+@media screen and (max-width: 576px) {
+    .nav-link, .btn{
+        display: none;
+    }
+    .nav-logo{
+        margin-left: 2px;
+    }
+    .banner-part{
+        flex-direction: column-reverse;
+        max-width: 200px;
+        margin-right: 100px;
+    }
+    .banner{
+        margin-right: 100px;
+    }
+    .banner-pic{
+        width: 100%;
+        margin-left: 25px;
+        margin-right: 300px;
+        
+    }
+    .standard{
+        font-size: 35px;
+    }
+    .curriculum{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 10px;
+        margin-left: 50px;
+        gap: 10px;
+        
+    }
+    .kinder{
+        padding: 0px;
+    }
+    .middle{
+        padding: 0px;
+    }
+    .elementary{
+        width: 300px;
+        padding: 0px;
+    }
+    .first{
+        display: none;
+    }
+    .small{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 40px;
+        margin-left: 50px;
+        gap: 10px;
+    
+    }
+    .arrow{
+        display: none;
+    }
+    .last-part{
+        flex-direction: column;
+    }
+    .our{
+        margin-top: 30px;
+    }
+    .adventure{
+        display: none;
+    }
+    
+}
+
+/* medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .nav-logo{
+        margin-left: 10px;
+    }
+    .nav-link, .btn{
+        display: none;
+    }
+    .adventure{
+        display: none;
+    }
+    .banner-part{
+       margin-left: -30px;
+        
+    }
+    .banner{
+        width: 200px;
+    }
+    .banner-pic{
+        width: 25%;
+        padding: 0px;
+        height: 700px;
+        margin-left: -50px;
+        margin-right: 250px;
+        margin-top: -10px
+
+    }
+    .banner-title{
+        font-size: 30px;
+    }
+    .banner-description{
+        font-size: 20px;
+    }
+    .first{
+        display: none;
+    }
+    .small{
+        margin-left: 125px;
+    }
+    .arrow{
+        display: none;
+    }
+    .curriculum{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-right: 70px;
+        margin-left: 40px;
+    }
+    .kinder{
+        width: 250px;
+    }
+    .middle{
+        width: 250px;
+    }
+    .school{
+        font-size: 20px;
+    }
 }
